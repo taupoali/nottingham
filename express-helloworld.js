@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');        // Send "Hello World!" as the response
 });
 
-// Start the server on port 3000
-const port = 3000;
+// Start the server on port 3001
+const port = 3001;
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });

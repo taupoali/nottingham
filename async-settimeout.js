@@ -7,22 +7,24 @@ function second(){
 }
 
 /*
-function second_async(){
-   setTimeout(function(){
+function second_async() 
+{
+   setTimeout(function() {
         console.log("Second");
     }, 1000);
-} 
-*/
+} */
 
-//function second_async_higher_order(callback){
-//    setTimeout(callback, 1000);
-//}
+
+function second_async_higher_order(callback){
+    setTimeout(callback, 1000);
+}
 
 function third(){
     console.log("Third");
 }
 
 first();
+//second();
 //second_async();
-//second_async_higher_order(second);
+second_async_higher_order(second);
 third();

@@ -1,10 +1,12 @@
 
-person = {
+const person = {
     name: "John",
     age: 30,
     city: "New York"
   };
 
+person.age = 31;
+console.log(person.age)
 
 
 

@@ -24,9 +24,13 @@ console.log("JSON String:", jsonString);
 // Receiving the JSON string back (e.g., from a server or localStorage)
 const receivedJsonString = jsonString; // For this example, we'll just reuse the same string
 
+
+
 // Converting the JSON string back to a JavaScript object
 const parsedUser = JSON.parse(receivedJsonString);
 console.log("Parsed JavaScript Object:", parsedUser);
+
+
 
 // Accessing properties of the parsed object
 console.log("User's Name:", parsedUser.name);
