@@ -9,20 +9,9 @@ person.age = 31;
 console.log(person.age)
 
 
-
-
-
-
-
-
 for (var variable in person) {
     console.log(variable);  
   }
-
-
-
-
-
 
 
 /*

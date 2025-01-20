@@ -1,6 +1,4 @@
 
-
-
 const myObj = {
     name: "John",
     age: 30,

@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-url = 'http://api.weatherstack.com/current?access_key=c7bdfe1ef471337be56128b4dd6c3802&query=London';
+url = 'http://api.weatherstack.com/current?access_key=xxxxxquery=London';
 
 const fetchData = async () => {
     try {
