@@ -6,3 +6,22 @@ const MIN_PASSWORD = 6
 function checkPasswordLength(password) {
     return password.length >= MIN_PASSWORD
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Possible Refactor
+const MIN_PASSWORD_LENGTH = 6
+
+function isPasswordLongEnough(password) {
+    return password.length >= MIN_PASSWORD_LENGTH
+}
