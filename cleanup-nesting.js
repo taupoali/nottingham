@@ -22,7 +22,6 @@ function processUser(user){
 
 
 
-
 // Possible refactor
 
 function processUser(user){

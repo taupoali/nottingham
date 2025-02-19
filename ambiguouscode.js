@@ -19,6 +19,9 @@ function checkPasswordLength(password) {
 
 
 
+
+
+
 // Possible Refactor
 const MIN_PASSWORD_LENGTH = 6
 
